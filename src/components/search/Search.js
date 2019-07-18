@@ -35,7 +35,7 @@ export default class Search extends Component {
         return (
             <div>
                 <TextField 
-                    style={{paddingLeft: '2em', margin: 'auto'}}
+                    style={{marginLeft: '40%'}}
                     name="searchText"
                     value= {this.state.searchText}
                     onChange={this.onTextChange}
@@ -44,7 +44,7 @@ export default class Search extends Component {
                 <br/>
 
                 <SelectField
-                    style={{paddingLeft: '2em', margin: 'auto'}}
+                    style={{marginLeft: '40%'}}
                     name="amount"
                     floatingLabelText="Amount"
                     value={this.state.amount}
